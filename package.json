@@ -1,0 +1,24 @@
+{
+  "name": "project-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanmaBigo/proyect-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanmaBigo/proyect-page/issues"
+  },
+  "homepage": "https://github.com/JuanmaBigo/proyect-page#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "http-server": "^14.1.1",
+    "sass": "^1.57.1"
+  }
+}

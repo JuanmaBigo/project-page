@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Sevillana&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.navbar {
+  background-color: rgb(252, 227, 40);
+  color: red;
+}
+
+.inicio {
+  background-image: url("/media/ejemplos-de-Retroexcavadora-4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(251, 251, 251);
+  max-width: 100vw;
+}
+
+.welcome-text {
+  max-width: 100vw;
+  font-size: 3rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgb(145, 145, 145);
+}
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .welcome-text {
+    font-size: 2.2rem;
+    justify-self: center;
+  }
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img-of-container {
+  width: 40rem;
+}
+
+.img-1 {
+  transform: scaleX(-1);
+}/*# sourceMappingURL=home.css.map */
